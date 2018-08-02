@@ -1,6 +1,7 @@
 package org.young.wiki.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.young.wiki.dao.YBookDao;
 import org.young.wiki.dao.UserDao;
 
 /**
@@ -11,4 +12,6 @@ public abstract class AbstractService {
     @Autowired
     protected UserDao userDao;
 
+    @Autowired
+    protected YBookDao yBookDao;
 }

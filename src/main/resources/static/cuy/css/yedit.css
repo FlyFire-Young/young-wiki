@@ -1,0 +1,16 @@
+.editormd-menu .y-change i {
+    color: #ffffff;
+    background-color: #44B036 !important;
+    border: 1px #44B036 solid !important;
+}
+
+.editormd-menu a.y-disabled {
+    border-color: #c9c9c9;
+    opacity: .6;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.y-border-0 {
+    border: 0;
+}
